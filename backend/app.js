@@ -18,7 +18,8 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine','ejs');
 
 app.get('/',(req,res)=>{
-    res.send(`<h2>Welcome, please head to <a href="/messages">/messages</a></h2>`)
+	res.redirect('/messages')
+    // res.send(`<h2>Welcome, please head to <a href="/messages">/messages</a></h2>`)
 })
 
 app.use("/messages",messageRoute);
