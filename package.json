@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express-validator": "^7.2.0"
+  },
+  "name": "mini-message-board",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
